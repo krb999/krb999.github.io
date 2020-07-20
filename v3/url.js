@@ -9,9 +9,9 @@ function getRandomArrayElements(arr, count) {
     return shuffled.slice(min);
 }
 var items = [
-'krb9.com',
-'krb99.com',
-'krb999.com'
+'krb9.com','krb99.com','krb999.com',
+'ribi01.com','ribi02.com','ribi03.com',
+'ribi77.com','ribi666.com','ribi777.com'
 ];
 var item=getRandomArrayElements(items, 3);
 var djgk = ['点击观看'];
