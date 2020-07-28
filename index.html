@@ -31,15 +31,9 @@ function getRandomArrayElements(arr, count) {
     return shuffled.slice(min);
 }
 var items = [
-'www.krb9.com','krb9.com',
-'www.krb99.com','krb99.com',
-'www.krb999.com','krb999.com',
-'www.ribi01.com','ribi01.com',
-'www.ribi02.com','ribi02.com',
-'www.ribi03.com','ribi03.com',
-'www.ribi77.com','ribi77.com',
-'www.ribi666.com','ribi666.com',
-'www.ribi777.com','ribi777.com'
+'krb9.com','krb99.com','krb999.com',
+'ribi01.com','ribi02.com','ribi03.com',
+'ribi77.com','ribi666.com','ribi777.com'
 ];
 var item=getRandomArrayElements(items, 3);
 document.write('<a href="http://' + item[0] + ':' + Random(2000,9999) + '" target="_blank" class="list-group-item"><p class="list-group-item-text">' + item[0] + '<em class="pull-right">点击观看</em></p></a>');
